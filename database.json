@@ -1,0 +1,241 @@
+{
+  "users": {
+    "6285708936017@s.whatsapp.net": {
+      "exp": 22,
+      "diamond": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "ʏᴀɴᴢ - ʙᴏᴛᴢ",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novato",
+      "autolevelup": false,
+      "chatbot": false
+    },
+    "6283139160864@s.whatsapp.net": {
+      "exp": 83,
+      "diamond": 10,
+      "lastclaim": 0,
+      "registered": true,
+      "name": "hasbi",
+      "age": 12,
+      "regTime": 1694309660111,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novato",
+      "autolevelup": false,
+      "chatbot": false
+    },
+    "6281239303460@s.whatsapp.net": {
+      "exp": 5902,
+      "diamond": 10,
+      "lastclaim": 0,
+      "registered": true,
+      "name": "ʏᴀɴᴢ",
+      "age": 16,
+      "regTime": 1694309806060,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novato",
+      "autolevelup": false,
+      "chatbot": false,
+      "tiketcoin": null
+    },
+    "6281392718152@s.whatsapp.net": {
+      "exp": 89,
+      "diamond": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Qín zhì",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novato",
+      "autolevelup": false,
+      "chatbot": false
+    }
+  },
+  "chats": {
+    "6285708936017@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "useDocument": true,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
+    },
+    "120363167056537593@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "useDocument": true,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
+    },
+    "6283139160864@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "useDocument": true,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
+    },
+    "6281239303460@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "useDocument": true,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
+    }
+  },
+  "stats": {
+    "main-menu.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1694312116203,
+      "lastSuccess": 1694312116203
+    },
+    "rg-register.js": {
+      "total": 4,
+      "success": 2,
+      "last": 1694309806062,
+      "lastSuccess": 1694309806062
+    },
+    "dl-play2.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1694309851707,
+      "lastSuccess": 1694309851707
+    },
+    "info-creator.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694309896839,
+      "lastSuccess": 1694309896839
+    },
+    "game-tebakgambar.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1694311250214,
+      "lastSuccess": 1694311250214
+    },
+    "game-tebakgambar_hint.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1694311092736,
+      "lastSuccess": 1694311092736
+    },
+    "thss.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694309998683,
+      "lastSuccess": 1694309998683
+    },
+    "game-tebakkata.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694311917778,
+      "lastSuccess": 1694311917778
+    },
+    "game-tebakkata-hint.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694311926525,
+      "lastSuccess": 1694311926525
+    },
+    "game-tebaksurah-hint.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694311980098,
+      "lastSuccess": 1694311980098
+    },
+    "game-tebaksurah.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694312010547,
+      "lastSuccess": 1694312010547
+    },
+    "tools-openai.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694312022309,
+      "lastSuccess": 1694312022309
+    },
+    "main-listprem.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694312077306,
+      "lastSuccess": 1694312077306
+    },
+    "gp-delete.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1694312123841,
+      "lastSuccess": 1694312123841
+    },
+    "enable.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1694312174088,
+      "lastSuccess": 1694312174088
+    }
+  },
+  "msgs": {},
+  "sticker": {},
+  "settings": {
+    "6285708936017@s.whatsapp.net": {
+      "self": false,
+      "autoread": false,
+      "restrict": false,
+      "status": 0
+    }
+  }
+}
