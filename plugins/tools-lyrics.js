@@ -17,6 +17,6 @@ let handler = async (m, {conn, text }) => {
 }
 handler.help = ['lyrics']
 handler.tags = ['tools']
-handler.command = ['letra', 'lyrics', 'letras'] 
+handler.command = ['letra', 'lyrics', 'lirik'] 
 
 export default handler

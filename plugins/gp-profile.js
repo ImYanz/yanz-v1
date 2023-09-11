@@ -21,15 +21,15 @@ let str = `
 ▢ *🔖 Nama:* 
    • ${username} ${registered ? '\n   • ' + name + ' ': ''}
    • @${who.replace(/@.+/, '')}
-▢ *📱Angka:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-▢ *🔗Link:* wa.me/${who.split`@`[0]}${registered ? '\n▢ *🎈Umur*: ' + age + ' años' : ''}
+▢ *📱Nomer:* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+▢ *🔗Link:* wa.me/${who.split`@`[0]}${registered ? '\n▢ *🎈Umur*: ' + age + ' Tahun' : ''}
 ▢ *⚠️Peringatan:* ${warn}/${maxwarn}
-▢ *💎 Berlian :* ${diamond}
+▢ *💎 Berlian/limit :* ${diamond}
 ▢ *🆙 Level* : ${level}
-▢ *⬆️ XP* : Total ${exp} (${user.exp - min} / ${xp})\n${math <= 0 ? `listo para *${usedPrefix}levelup*` : `_*${math}xp*_ Falta para subir de nivel`}
+▢ *⬆️ XP* : Total ${exp} (${user.exp - min} / ${xp})
 ▢ *🏆Role:* ${role}
-▢ *📇 Register :* ${registered ? 'Si': 'No'}
-▢ *⭐ Premium* : ${prem ? 'Si' : 'No'}
+▢ *📇 Register :* ${registered ? 'Ya': 'No'}
+▢ *⭐ Premium* : ${prem ? 'Yes' : 'No'}
 └──────────────`
     conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, false, { mentions: [who] })
     m.react(done)
@@ -37,6 +37,6 @@ let str = `
 }
 handler.help = ['perfil']
 handler.tags = ['group']
-handler.command = ['profile', 'perfil'] 
+handler.command = ['profile', 'me'] 
 
 export default handler

@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
   let vid = res.videos[0]
   if (!vid) throw `✳️ Video/Audio Tidak Ditemukan`
   let isVideo = /vid$/.test(command)
-  m.react('🎧') 
+  m.react('🕘') 
   
   try {
   let q = isVideo ? '360p' : '128kbps' 
@@ -27,8 +27,8 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
 ▢ ⌚ *Durasi:* ${vid.timestamp}
 ▢ 👀 *Dilihat:* ${vid.views}
 └──────────────
-
-_Mengirim..._`
+Jika Reaksi Berubah Menjadi ${done} itu artinya audio bisa untuk diproses tunggu sampai proses selesai maka audio akan dikirim.\n
+_Proses..._`
 //conn.sendFile(m.chat, vid.thumbnail, 'play', play, m, null, rpl)
 
 conn.sendMessage(m.chat, {
@@ -45,13 +45,7 @@ renderLargerThumbnail: true
 
 if (size.split('MB')[0] >= limit) return m.reply(` ≡  *PLAY YTDL*\n\n▢ *⚖️Size* : ${size}\n▢ *🎞️Kualitas* : ${q}\n\n▢ _File melebihi batas unduhan_ *+${limit} MB*`) 
 if (size.includes('GB')) return m.reply(` ≡  *PLAY YTDL*\n\n▢ *⚖️Size* : ${size}\n▢ *🎞️Kualitas* : ${q}\n\n▢ _File melebihi batas unduhan_ *+${limit} MB*`)   
-	  conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /vid$/.test(command)), `
- ≡  *PLAY YTDL*
-  
-▢ *📌Titel* : ${title}
-▢ *🎞️Kualitas* : ${q}
-▢ *⚖️Size* : ${size}
-`.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
+	  conn.sendFile(m.chat, dl_url, `${nans}` + '.mp' + (3 + /vid$/.test(command)), m, false, { mimetype: isVideo ? '' : 'audio/mp3', asDocument: chat.useDocument })
 		m.react(done) 
     } catch {
 		m.reply(`Kesalahan: Coba lagi`)

@@ -16,7 +16,7 @@ let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, comman
   
 ▢ *📌Title* : ${title}
 ▢ *⚖️Size* : ${size}
-`.trim(), m, false, { mimetype: 'audio/mpeg', asDocument: chat.useDocument })
+`.trim(), m, false, { mimetype: 'audio/mpeg', ptt })
 		m.react(done)
         } catch {
 			await m.reply(`❎ Kesalahan: Audio tidak dapat diunduh`)
